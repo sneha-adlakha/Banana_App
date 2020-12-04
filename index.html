@@ -3,39 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Translator App </title>
+    <title>Banana Translator App-Project 6 </title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
-<style>
-textarea{
-    height: 4rem;
-    display: block;
-    margin: 1rem;
-    width: 80%;
-    padding:1rem;
-}
-button{
-    height: 2rem;
-    color: black;
-    padding:1rem;
-    border-width: 0.5rem;
-    text-align:justify;
-    margin: 1rem;;
-}
-#output{
-    border:1px solid black;
-    height: 10vh;
-    width: 80%;
-    margin:1rem;
-    padding: 1rem;
-}
-    </style>
-
 <body>
-    <h3>Welcome to my Banana Translator App</h3>
-    <textarea id="txt-input" placeholder="type your text here"></textarea>
-    <button id="btn-translate">Translate</button>
-    <div>Output will be shown below:</div>
+    <header class="top">
+        <h1 class="top-heading"> Welcome to the world of Minions</h1>
+        <img class="top-img" src="header-img.jpg" />
+    </header>
+    <p style="text-align:center">Enter your text below:</p>
+    <textarea id="txt-input" placeholder="type your message here which you want to convert into Minionese!"></textarea>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">
+            <button id="btn-translate" style="margin-left: 40rem;">Translate to Minionese</button>
+        </li>
+        <li class="list-item-inline">
+            <button id="clear">clear text</button>
+        </li>
+    </ul>        
+    <p style="text-align:center"> Translated text:</p>
     <div id="output"></div>
     <script src="apptwo.js" type="text/javascript"></script>
+<footer class="footer">
+    <h1>About</h1>
+    <h3 style="font-size:medium; font-family: 'Montserrat', sans-serif;">We all love those spunky Minions and their non-stop chatter, but what in the world are they saying? The Minions have their own language called Minionese! </h3>
+    <h3 style="font-size:medium; font-family: 'Montserrat', sans-serif;">This app will convert your english language to minion or banana language.the Minions language is mostly unintelligible or barely intelligible talking with some words from the Spanish, French, Italian, Filipino, and other foreign languages</h3>
+    <h3 style="font-family: 'Montserrat', sans-serif;">Designed by: Ms Sneha Adlakha</h3>
+    <h3 style="font-family: 'Montserrat', sans-serif;">Guided by: Mr Tanay Pratap</h3>
+</footer>
+
 </body>
 </html>

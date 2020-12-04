@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root {
+    --primary-color: #FBBF24;
+    --second-color: black;
+    --off-color:#FDE68A;
+}
+
+body
+{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Cinzel', serif;
+}
+textarea{
+    height: 6rem;
+    display: block;
+    margin: 1rem;
+    width: 80%;
+    padding:1rem;
+    border:1px solid black;
+    overflow:scroll;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+button{
+    height: 3.5rem;
+    font-family: 'Cinzel', serif;
+    background-color: var(--primary-color);
+    color: black;
+    font-weight:bolder;
+    padding:1rem;
+    border-width: 0.5rem;
+    border-style: hidden;
+    text-align:center;
+    margin: auto;
+    display: inline-block;
+    font-size: 1.5rem;
+    
+
+    
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
+#output{
+    height: 6rem;
+    display: block;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    width: 80%;
+    padding:1rem;
+    border:1px solid black;
+    overflow:scroll;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.top{
+    padding: 0.5rem;
+    padding-top: 1rem;
+    background-color: var(--primary-color);
+
+    text-align: center;
+}
+.top .top-img{
+    max-width: 300px;
+    display:block;
+    margin:auto;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.footer{
+    background-color:var(--primary-color);
+    text-align: center;
+    color:black;
+}
